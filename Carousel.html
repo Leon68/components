@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel</title>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<style>
+    ul,
+    li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        /*overflow: hidden;*/
+    }
+
+    .carousel .img-ct {
+        position: absolute;
+        height: 200px;
+        width: 1800px;
+        transition: all 0.5s;
+    }
+
+    .carousel .img-ct:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .carousel .img-ct > li {
+        float: left;
+    }
+
+    .carousel .img-ct img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .carousel .btn {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #333;
+        opacity: 0.6;
+        display: block;
+    }
+
+    .carousel .btn-pre {
+        left: 10px;
+    }
+
+    .carousel .btn-next {
+        right: 10px;
+    }
+
+    .carousel .bullet-ct {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .carousel .bullet {
+        /*		position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 20px;
+    width: 150px;*/
+        display: inline-block;
+    }
+
+    .carousel .bullet:after {
+        /*		content: '';
+    display: block;
+    clear: both;*/
+    }
+
+    .carousel .bullet > li {
+        /*float: left;*/
+        display: inline-block;
+        width: 20px;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #fff;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .carousel .bullet .active {
+        background-color: #666;
+    }
+</style>
+</head>
+
+<body>
+<div class="carousel">
+    <ul class="img-ct">
+        <li data-index=0>
+            <a href="##"><img src="http://cdn.jirengu.com/book.jirengu.com/img/1.jpg" alt="1.jpg"></a>
+        </li>
+        <li data-index=1>
+            <a href="##"><img src="http://cdn.jirengu.com/book.jirengu.com/img/2.jpg" alt="2.jpg"></a>
+        </li>
+        <li data-index=2>
+            <a href="##"><img src="http://cdn.jirengu.com/book.jirengu.com/img/3.jpg" alt="3.jpg"></a>
+        </li>
+        <li data-index=3>
+            <a href="##"><img src="http://cdn.jirengu.com/book.jirengu.com/img/4.jpg" alt="4.jpg"></a>
+        </li>
+    </ul>
+    <a class="btn btn-pre" href="#">&lt;</a>
+    <a class="btn btn-next" href="#">&gt;</a>
+    <div class="bullet-ct">
+        <ul class="bullet">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<div class="carousel">
+    <ul class="img-ct">
+        <li data-index=0>
+            <a href=""><img src="http://cdn.jirengu.com/book.jirengu.com/img/1.jpg" alt="1.jpg"></a>
+        </li>
+        <li data-index=1>
+            <a href=""><img src="http://cdn.jirengu.com/book.jirengu.com/img/2.jpg" alt="2.jpg"></a>
+        </li>
+        <li data-index=2>
+            <a href=""><img src="http://cdn.jirengu.com/book.jirengu.com/img/3.jpg" alt="3.jpg"></a>
+        </li>
+        <li data-index=3>
+            <a href=""><img src="http://cdn.jirengu.com/book.jirengu.com/img/4.jpg" alt="4.jpg"></a>
+        </li>
+    </ul>
+    <a class="btn btn-pre" href="#">&lt;</a>
+    <a class="btn btn-next" href="#">&gt;</a>
+    <div class="bullet-ct">
+        <ul class="bullet">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<script>
+    function Carousel(ct){
+        this.$ct = ct
+        this.$bulletLiList = this.$ct.find('.bullet>li')
+        this.carouselSwitch()
+    }
+    Carousel.prototype = {
+        carouselSwitch: function(){
+            let i = 0
+            this.substitution(i)
+            this.$ct.find('.btn-next').click(() => {
+                i++
+                if (i>3){
+
+                    i=0
+                }
+                this.imgActive(i)
+
+            })
+            this.$ct.find('.btn-pre').click(() => {
+                i--
+                if (i < 0){
+                    i=3
+                }
+                this.imgActive(i)
+            })
+            this.bulletClick()
+
+        },
+        bulletClick: function(){
+            this.$ct.find('.bullet').click((e) => {
+                let i = this.$bulletLiList.index(e.target)
+                if(i === -1) return;
+                this.imgActive(i)
+            })
+
+        },
+        imgActive: function(i){
+            this.$bulletLiList.removeClass('active')
+            this.$bulletLiList.eq(i).addClass('active')
+            this.$ct.find('.img-ct').css({'left': `${-300*i}px`})
+        },
+        substitution: function(i) {
+            let $imgCt = this.$ct.find('.img-ct')
+            let firstClone = this.$ct.find('.img-ct>li').first().clone()
+            let lastClone = this.$ct.find('.img-ct>li').last().clone()
+            firstClone.appendTo($imgCt)
+            lastClone.prependTo($imgCt)
+            this.$ct.find('.img-ct').css({'left': '-300px'})
+
+
+        }
+    }
+    new Carousel($('.carousel').eq(0))
+    new Carousel($('.carousel').eq(1))
+</script>
+</body>
+</html>
