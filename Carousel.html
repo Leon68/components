@@ -14,15 +14,15 @@
 
         .carousel {
             position: relative;
-            width: 300px;
-            height: 200px;
+            width: 500px;
+            height: 300px;
             margin-left: 300px;
             overflow: hidden;
         }
 
         .carousel .img-ct {
             position: absolute;
-            height: 200px;
+            height: 300px;
             width: 1800px;
         }
 
@@ -37,8 +37,8 @@
         }
 
         .carousel .img-ct img {
-            width: 300px;
-            height: 200px;
+            width: 500px;
+            height: 300px;
         }
 
         .carousel .btn {
@@ -174,10 +174,12 @@
         }
         _Carousel.prototype = {
             init: function(){
+
                 this.$bullet = this.$ct.find('.bullet')
                 this.$imgCt = this.$ct.find('.img-ct')
                 this.imgCount = this.$ct.find('.img-ct>li').length
                 this.imgWidth = this.$ct.find('.img-ct>li img').width()
+                console.log(this.imgWidth)
                 this.isFinish = true
                 this.curPageIndex = 1
             },
@@ -192,7 +194,8 @@
                     if (!this.isFinish) return
                     this.isFinish = false
                     this.curPageIndex--
-                    this.$ct.find('.img-ct').animate({'left': '+=300px'}, () => {
+                    console.log(this.curPageIndex)
+                    this.$ct.find('.img-ct').animate({'left': `${-this.imgWidth * this.curPageIndex}px`}, () => {
                         if (this.curPageIndex === 0) {
                             this.curPageIndex = this.imgCount
                             this.$ct.find('.img-ct').css({'left': `${-this.imgWidth  * this.imgCount}px`})
@@ -208,7 +211,7 @@
                     if (!this.isFinish) return;
                     this.isFinish = false
                     this.curPageIndex++
-                    this.$ct.find('.img-ct').animate({'left': '-=300px'}, () => {
+                    this.$ct.find('.img-ct').animate({'left': `${-this.imgWidth * this.curPageIndex}px`}, () => {
                         if (this.curPageIndex === this.imgCount + 1) {
                             this.curPageIndex = 1
                             this.$ct.children('.img-ct').css('left', `${-this.imgWidth }px`)
