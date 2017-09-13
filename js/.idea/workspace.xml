@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3426d075-a081-4575-ba45-eb9b8b75e3be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/barrel-es6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/barrel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exposure.html" afterPath="$PROJECT_DIR$/Exposure.html" />
-    </list>
+    <list default="true" id="daff20e8-e032-4dee-bd95-764a3b94e4ce" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,76 +15,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Carousel.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Carousel.html">
+      <file leaf-file-name="Carousel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Carousel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="229" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="267" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="barrel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barrel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab -switch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tab -switch.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1199">
-              <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="barrel-es6.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barrel-es6.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1121">
-              <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exposure.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exposure.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1393">
-              <caret line="202" column="9" lean-forward="false" selection-start-line="202" selection-start-column="9" selection-end-line="202" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datepicker.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datepicker.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7220">
-              <caret line="361" column="0" lean-forward="true" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1505207701876" expanded="true" signature="4848:4860" ph="..." />
+                <marker date="1505299307049" expanded="true" signature="31:3914" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="64:243" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="274:3725" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="304:688" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="730:879" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="914:1657" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="970:996" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="1264:1298" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="1319:1515" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="1694:2379" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="1751:1777" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="1995:2029" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="2066:2236" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="2414:2662" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="2539:2648" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="2697:2833" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="2872:3288" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="2928:2954" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="3328:3715" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="3741:3907" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="3773:3897" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="3820:3882" ph="{...}" />
+                <marker date="1505299307049" expanded="true" signature="3953:4034" ph="//..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modal.html">
+      <file leaf-file-name="Gotop.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gotop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <marker date="1505207842188" expanded="true" signature="3991:4003" ph="..." />
-              </folding>
+            <state relative-caret-position="540">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,22 +64,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Carousel.html" />
-        <option value="$PROJECT_DIR$/Exposure.html" />
-        <option value="$PROJECT_DIR$/datepicker.html" />
-        <option value="$PROJECT_DIR$/modal.html" />
-        <option value="$PROJECT_DIR$/barrel-es6.html" />
-        <option value="$PROJECT_DIR$/barrel.html" />
+        <option value="$PROJECT_DIR$/Gotop.js" />
       </list>
     </option>
   </component>
@@ -134,8 +90,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1037" />
+    <option name="width" value="940" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -152,22 +108,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +133,6 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -275,28 +230,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3426d075-a081-4575-ba45-eb9b8b75e3be" name="Default" comment="" />
-      <created>1505129655074</created>
+      <changelist id="daff20e8-e032-4dee-bd95-764a3b94e4ce" name="Default" comment="" />
+      <created>1505299158228</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1505129655074</updated>
-      <workItem from="1505129656348" duration="17848000" />
-      <workItem from="1505226606253" duration="10302000" />
+      <updated>1505299158228</updated>
+      <workItem from="1505299159542" duration="739000" />
+      <workItem from="1505300471015" duration="974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28150000" />
+    <option name="totallyTimeSpent" value="1713000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1037" extended-state="4" />
-    <editor active="true" />
+    <frame x="960" y="0" width="940" height="1035" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24835886" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2606264" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -322,98 +276,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Carousel.html">
+    <entry file="file://$PROJECT_DIR$/Carousel.html" />
+    <entry file="file://$PROJECT_DIR$/Carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exposure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4040">
-          <caret line="202" column="9" lean-forward="false" selection-start-line="202" selection-start-column="9" selection-end-line="202" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datepicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7220">
-          <caret line="361" column="0" lean-forward="true" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
           <folding>
-            <marker date="1505207701876" expanded="true" signature="4848:4860" ph="..." />
+            <marker date="1505299307049" expanded="true" signature="31:3914" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="64:243" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="274:3725" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="304:688" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="730:879" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="914:1657" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="970:996" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="1264:1298" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="1319:1515" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="1694:2379" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="1751:1777" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="1995:2029" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="2066:2236" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="2414:2662" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="2539:2648" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="2697:2833" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="2872:3288" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="2928:2954" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="3328:3715" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="3741:3907" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="3773:3897" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="3820:3882" ph="{...}" />
+            <marker date="1505299307049" expanded="true" signature="3953:4034" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modal.html">
+    <entry file="file://$PROJECT_DIR$/Gotop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <marker date="1505207842188" expanded="true" signature="3991:4003" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <marker date="1505207842188" expanded="true" signature="3991:4003" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datepicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7220">
-          <caret line="361" column="0" lean-forward="true" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
-          <folding>
-            <marker date="1505207701876" expanded="true" signature="4848:4860" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrel-es6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1121">
-          <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tab -switch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1199">
-          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exposure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1393">
-          <caret line="202" column="9" lean-forward="false" selection-start-line="202" selection-start-column="9" selection-end-line="202" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Carousel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="229" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="267" selection-end-column="7" />
+        <state relative-caret-position="540">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>

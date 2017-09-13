@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tab-switch</title>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .tab-switch-ct {
+            width: 400px;
+            height: 300px;
+            margin: 40px;
+
+        }
+
+        .tab {
+            display: flex;
+            justify-content: inherit;
+        }
+
+        .tab li {
+            width: 33.3%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .tab .tab-active {
+            background-color: #ccc;
+        }
+
+        .tab li + li {
+            border-left: none;
+        }
+
+        .content {
+            height: 260px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+
+        .content li:nth-child(1) {
+            display: none;
+            height: 100%;
+            background-color: #923421;
+
+        }
+
+        .content li:nth-child(2) {
+            display: none;
+            height: 100%;
+            background-color: #348931;
+        }
+
+        .content li:nth-child(3) {
+            display: none;
+            height: 100%;
+            background-color: #384290;
+        }
+
+        .content li:nth-child(4) {
+            display: none;
+            height: 100%;
+            background-color: #114290;
+        }
+
+        .content li.content-active {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+<div class="tab-switch-ct">
+    <ul class="tab">
+        <li class="tab-active">tab1</li>
+        <li>tab2</li>
+        <li>tab3</li>
+    </ul>
+    <ul class="content">
+        <li>内容1</li>
+        <li>内容2</li>
+        <li class="content-active">内容3</li>
+    </ul>
+</div>
+<div class="tab-switch-ct">
+    <ul class="tab">
+        <li>tab1</li>
+        <li class="tab-active">tab2</li>
+        <li>tab3</li>
+        <li>tab4</li>
+    </ul>
+    <ul class="content">
+        <li class="content-active">内容1</li>
+        <li>内容2</li>
+        <li>内容3</li>
+        <li>内容4</li>
+    </ul>
+</div>
+
+<script>
+    function Tab(ct) {
+        this.$tab = ct
+        this.tabSwitch()
+    }
+    Tab.prototype = {
+        tabSwitch: function () {
+            let $tabLiList = this.$tab.find('.tab>li')
+            let $contentLiList = this.$tab.find('.content>li')
+            this.$tab.click((e) => {
+                let target = e.target
+                let index = $tabLiList.index(target)
+                $tabLiList.removeClass('tab-active')
+                $contentLiList.removeClass('content-active')
+                $tabLiList.eq(index).addClass('tab-active')
+                $contentLiList.eq(index).addClass('content-active')
+            })
+        }
+    }
+    let tab1 = new Tab($('.tab-switch-ct').eq(0))
+    let tab2 = new Tab($('.tab-switch-ct').eq(1))
+</script>
+</body>
+</html>
